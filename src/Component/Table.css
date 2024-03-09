@@ -1,0 +1,26 @@
+body{
+    background-color: greenyellow;
+  }
+  div{
+    margin: 25px auto 100px 130px;
+  
+  }
+  table,tr,td,th{
+    border: 5px solid #f5deb3;
+    border-collapse: collapse;
+    background-color:rgb(243, 157, 126);
+    align-items: center;
+    
+  }
+  table{
+    height: 100px;
+  }
+  td{
+    width: 100px;
+    text-align: center;
+  }
+  th{
+    height: 25px;
+    
+  }
+  
