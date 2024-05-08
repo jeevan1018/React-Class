@@ -23,8 +23,7 @@ export class TimerComponent extends Component{
     }
 
     StopTimer=()=>{
-        console.log("working..")
-        clearInterval(this.TimerValue);
+  
     }
 
     render(){

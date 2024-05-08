@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(249, 215, 170);
+}
+.cart{
+
+    background-color: antiquewhite;
+    height: 425px;
+    width: 260px;
+    border: none;
+    float: left;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.cart:hover{
+    border: none;
+    box-shadow: 5px 5px 5px 5px rgb(96, 93, 93);
+
+}
+.price{
+    color: orange;
+}
+.text{
+
+    color: black;
+    text-align: center;
+    margin: 10px;
+}
