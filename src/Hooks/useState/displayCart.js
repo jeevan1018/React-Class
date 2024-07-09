@@ -92,7 +92,7 @@ setItem(newArray2.filter((item)=>item.count>0))
 
     return(
         <>
-        <center><h1 style={{color:"yellow",textShadow:"2px 2px 2px black"}}>Zomato</h1></center>
+        <center><h1 className="heading" >Zomato</h1></center>
     
 
         {
@@ -115,7 +115,7 @@ setItem(newArray2.filter((item)=>item.count>0))
             })
         }
          <div className="total">
-            {TOtalPrice >1 ? <h1>Total:{TOtalPrice}</h1>: <h1>Your Cart is Empty :(</h1>}
+            {TOtalPrice >1 ? <h1 style={{margin:"25px"}}><div style={{backgroundColor:"white" ,color:"black",padding:"10px",width:"250px"}}>Total:{TOtalPrice}</div></h1>: <h1>Your Cart is Empty :(</h1>}
                         
                     </div>
         </>

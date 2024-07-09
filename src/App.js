@@ -1,8 +1,7 @@
+import {TodoListComponent} from "../src/Hooks/useReducer/Todo-List"
 
 
 
-
-import Practic from "./A/practice";
 
 
 
@@ -16,7 +15,7 @@ import Practic from "./A/practice";
  function App() {
    return (
    <div>
-  <Practic/>
+  <TodoListComponent/>
   
     </div>
    );

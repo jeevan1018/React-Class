@@ -28,11 +28,14 @@ h2{
 h4{
     color: rgb(105, 71, 35);
 }
-h1{
+.heading{
     margin: 25px;
-    background-color: rgb(202, 26, 26);
+    background-color:tan;
     height: 50px;
     margin-top: 20px;
     text-shadow: 1px 1px 1px   black;
+    color:yellow;
+    text-shadow:2px 2px 2px black;
+    padding:"10px";
 
 }

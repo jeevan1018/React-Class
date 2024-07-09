@@ -19,13 +19,13 @@ export const ComponentTimer=()=>{
 
         },1000)
         return ()=>{
-            const TimerHandle=()=>{
-                clearInterval(timeValue)
+            
+            timer<1?    clearInterval(timeValue):timer
         
                 
         
         
-            }
+        
 
 
 
